@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pgai-voice-bot"
+version = "0.1.0"
+description = "LiveKit pipeline voice bot for the Pretty Good AI assessment"
+requires-python = ">=3.11"
+dependencies = [
+  "livekit>=1.0",
+  "livekit-agents[openai,deepgram,cartesia,silero,turn_detector]~=1.0",
+  "livekit-plugins-noise-cancellation~=0.2",
+  "openai>=1.0",
+  "python-dotenv~=1.0",
+  "pydantic~=2.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
