@@ -19,7 +19,7 @@ wilsonix1@gmail.com
 GitHub Repository Link:
 
 ```text
-TODO: paste the public GitHub repo URL after pushing this project
+https://github.com/wilsonix1/pgai-voice-bot
 ```
 
 Did you make GitHub Repository PUBLIC:
